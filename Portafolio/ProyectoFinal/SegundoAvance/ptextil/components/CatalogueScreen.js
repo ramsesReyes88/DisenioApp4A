@@ -1,10 +1,10 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-export default function HomeScreen() {
+export default function CatalogueScreen() {
     return(
         <View style={styles.container}>
-            <Text style={styles.text} >Hola Home</Text>
+            <Text style={styles.text} >Hola Catalogue</Text>
         </View>
     );    
 }
